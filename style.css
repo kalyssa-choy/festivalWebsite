@@ -45,9 +45,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-#aboutUs{
+#aboutUs, #countdownBlock h2{
     padding: 60px 30px 20px;
-    font-size: 60px;
+    font-size: 50px;
 }
 #aboutUsBlock{
     font-family: 'Josefin Sans', sans-serif;
@@ -61,6 +61,7 @@
 }
 #aboutDesc p{
     font-size: 100%;
+    padding: 10px 0px;
 }
 #imageBlock img{
     width: 33%;
@@ -71,10 +72,61 @@
     padding: 60px 30px 20px;
 }
 #imageBlock h2{
-    font-size: 60px;
+    font-size: 50px;
     padding: 40px 0px;
 }
 #images{
     margin: auto;
     width: 1200px;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#countdown{
+    padding: 10px 40px;
+    font-size: 40px;
+}
+
+/*Styling Vendor Page*/
+#sectionTitle{
+    padding: 70px 30px 40px;
+    font-size: 40px;
+}
+#boothInfoBlock{
+    padding: 0px 30px;
+}
+#artsInfoBlock{
+    padding: 0px 30px;
+    margin: 0px 0px 80px;
+}
+#boothInfoBlock h3, #artsInfoBlock h3{
+    padding: 30px 0px;
+    font-size: 150%;
+}
+#boothInfoBlock ul, #artsInfoBlock ul{
+    padding: 10px 30px;
+    font-size: 100%;
+}
+#boothInfoBlock li, #artsInfoBlock li{
+    padding: 10px 0px;
+}
+
+/*Styling Get Involved Page*/
+#volunteerBlock{
+    padding: 0px 30px 80px;
+}
+#volunteerBlock h2{
+    padding: 70px 0px 40px;
+    font-size: 40px;
+}
+#volunteerBlock h3{
+    padding: 30px 0px;
+    font-size: 150%;
+}
+#volunteerBlock ul{
+    padding: 10px 30px;
+    font-size: 100%;
+}
+#volunteerBlock li, #volunteerBlock p{
+    padding: 10px 0px;
 }
