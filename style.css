@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
 }
+#navLogo{
+    width:60px;
+    height:50px;
+}
 #mainTitle{
     text-align: center;
     font-size: 4rem;
     padding: 5rem 3rem;
     background-color: #2e282a42;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #navigationBar{
     background-color: #2E282A;
@@ -18,6 +23,7 @@
     justify-content: space-around;
 }
 #navigationBar button{
+    font-family: 'Josefin Sans', sans-serif;
     background: none;
     border: none;
     color: white;
@@ -36,6 +42,35 @@
     background-size: cover;
 }
 #aboutUs{
-    padding: 30px;
-    font-size: 3rem;
+    padding: 60px 30px 20px;
+    font-size: 60px;
+}
+#aboutUsBlock{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#aboutDesc{
+    padding:0px 30px;
+}
+#aboutDesc h3{
+    padding: 20px 0px;
+    font-size: 150%;
+}
+#aboutDesc p{
+    font-size: 100%;
+}
+#imageBlock img{
+    width: 33%;
+    height: 34%;
+}
+#imageBlock{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 60px 30px 20px;
+}
+#imageBlock h2{
+    font-size: 60px;
+    padding: 40px 0px;
+}
+#images{
+    margin: auto;
+    width: 1200px;
 }
