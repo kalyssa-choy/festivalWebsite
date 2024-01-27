@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainTitle{
+    text-align: center;
+    font-size: 4rem;
+    padding: 5rem 3rem;
+    background-color: #2e282a42;
+    color: white;
+}
+#navigationBar{
+    background-color: #2E282A;
+    padding: 20px 0px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#navigationBar button{
+    background: none;
+    border: none;
+    color: white;
+}
+#navigationBar button:hover{
+    background-color: #CD5334;
+    border-radius: 15px;
+    padding: 10px;
+}
+#navigationBar button:active{
+    color: rgb(189, 189, 189);
+}
+#background{
+    background-image: url("IMG_3837.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutUs{
+    padding: 30px;
+    font-size: 3rem;
+}
