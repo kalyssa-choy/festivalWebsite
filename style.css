@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+#homeButton{
+    width: 60px;
+    height: 50px;
+}
 #navLogo{
-    width:60px;
-    height:50px;
+    width:100%;
+    height:100%;
 }
 #mainTitle{
     text-align: center;
